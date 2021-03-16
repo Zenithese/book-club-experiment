@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import { INCREMENT, DECREMENT } from './usePagesArrayReducer'
 
 export default function Page({ position, setPosition, pageNum, defaultZ, setDefaultZ }) {
 
