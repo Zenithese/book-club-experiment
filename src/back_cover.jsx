@@ -6,7 +6,7 @@ export default function BackCover({ position, setPosition, setBookClosed, pageNu
 
     useEffect(() => {
         if (!flipped) {
-            setDefaultZ(pageNum - 1)
+            setDefaultZ(pageNum)
         }
     }, [flipped])
 

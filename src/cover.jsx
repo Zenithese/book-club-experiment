@@ -14,7 +14,7 @@ export default function Cover({ position, setPosition, setSessionOpen, defaultZ,
             setTimeout(() => {
                 setBackface("backface")
             }, 150)
-            setDefaultZ(1)
+            setDefaultZ(2)
         } else {
             setPosition(position - 2)
             setTimeout(() => {

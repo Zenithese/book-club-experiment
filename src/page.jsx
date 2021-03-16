@@ -6,7 +6,7 @@ export default function Page({ position, setPosition, pageNum, defaultZ, setDefa
 
     useEffect(() => {
         if (!flipped) {
-            setDefaultZ(pageNum - 1)
+            setDefaultZ(pageNum)
         }
     }, [flipped])
 
